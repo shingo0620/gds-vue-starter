@@ -1,0 +1,24 @@
+{
+  "name": "My Visualizations",
+  "organization": "MyOrg",
+  "description": "My first visualization package.",
+  "logoUrl": "https://logo",
+  "organizationUrl": "https://url",
+  "supportUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "packageUrl": "https://url",
+  "devMode": true,
+  "components": [
+    {
+      "name": "myViz",
+      "description": "My first Community Visualization",
+      "iconUrl": "https://url",
+      "resource": {
+        "js": "gs://gds-with-dscc-gen/data-compare/dev/index.js",
+        "config": "gs://gds-with-dscc-gen/data-compare/dev/index.json",
+        "css": "gs://gds-with-dscc-gen/data-compare/dev/index.css"
+      }
+    }
+  ]
+}
